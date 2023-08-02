@@ -1,0 +1,95 @@
+gsap.from(".box-container .b1", {
+  // rotate: 360,
+  // y: 80,
+  scale: 1.1,
+  opacity: 0,
+  // duration: 1,
+  scrollTrigger: {
+    trigger: ".box-container .b1",
+    scroller: "body",
+    start: "top 80%",
+    end: "top 50%",
+    markers: true,
+    scrub: true,
+  },
+});
+gsap.from(".box-container .b2", {
+  // rotate: 360,
+  // y: 80,
+  scale: 1.1,
+  stagger: 1,
+  opacity: 0,
+  // duration: 1,
+  scrollTrigger: {
+    trigger: ".box-container .b2",
+    scroller: "body",
+    start: "top 80%",
+    end: "top 50%",
+    markers: true,
+    scrub: true,
+  },
+});
+gsap.from(".box-container .b3", {
+  // rotate: 360,
+  // y: 80,
+  scale: 1.1,
+  stagger: 1,
+  opacity: 0,
+  // duration: 1,
+  scrollTrigger: {
+    trigger: ".box-container .b3",
+    scroller: "body",
+    start: "top 80%",
+    end: "top 50%",
+    markers: true,
+    scrub: true,
+  },
+});
+gsap.from(".box-container .b4", {
+  // rotate: 360,
+  // y: 80,
+  scale: 1.1,
+  stagger: 1,
+  opacity: 0,
+  // duration: 1,
+  scrollTrigger: {
+    trigger: ".box-container .b4",
+    scroller: "body",
+    start: "top 80%",
+    end: "top 50%",
+    markers: true,
+    scrub: true,
+  },
+});
+gsap.from(".box-container .b5", {
+  // rotate: 360,
+  // y: 80,
+  scale: 1.1,
+  stagger: 1,
+  opacity: 0,
+  // duration: 1,
+  scrollTrigger: {
+    trigger: ".box-container .b5",
+    scroller: "body",
+    start: "top 80%",
+    end: "top 50%",
+    markers: true,
+    scrub: true,
+  },
+});
+gsap.from(".box-container .b6", {
+  // rotate: 360,
+  // y: 80,
+  scale: 1.1,
+  stagger: 1,
+  opacity: 0,
+  // duration: 1,
+  scrollTrigger: {
+    trigger: ".box-container .b6",
+    scroller: "body",
+    start: "top 80%",
+    end: "top 50%",
+    markers: true,
+    scrub: true,
+  },
+});
